@@ -20,6 +20,8 @@
   <remote  name="mozillaorg" 
            fetch="https://git.mozilla.org/releases" />
 
+  <remote  name="apitrace" fetch="git://github.com/apitrace/" />
+
   <remote  name="feherneoh" 
            fetch="git://github.com/feherneoh" />
 
