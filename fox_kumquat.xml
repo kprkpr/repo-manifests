@@ -224,5 +224,5 @@
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" remote="github" revision="ics" />
   <project name="CyanogenMod/sony-kernel-u8500" path="kernel/sony/u8500" remote="github" revision="ics" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="ics"/>
-
+  <project path="sourcefix" name="fox_kumquat_patch" remote="feherneoh" revision="master" />
 </manifest>
