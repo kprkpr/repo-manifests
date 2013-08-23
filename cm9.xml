@@ -85,7 +85,7 @@
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" />
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" />
+  <!--<project path="external/nano" name="CyanogenMod/android_external_nano" />-->
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
