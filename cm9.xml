@@ -164,13 +164,13 @@
   <project name="CyanogenMod/sony-kernel-u8500" path="kernel/sony/u8500" remote="github" revision="ics" />
   
   <!-- Sony Xperia Go 'lotus' -->
-  <project name="CyanogenMod/android_device_sony_lotus" path="device/sony/kumquat" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_device_sony_lotus" path="device/sony/lotus" remote="github" revision="ics" />
   
   <!-- Sony Xperia P 'nypon' -->
-  <project name="CyanogenMod/android_device_sony_nypon" path="device/sony/kumquat" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_device_sony_nypon" path="device/sony/nypon" remote="github" revision="ics" />
   
   <!-- Sony Xperia Sola 'pepper' -->
-  <project name="CyanogenMod/android_device_sony_pepper" path="device/sony/kumquat" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_device_sony_pepper" path="device/sony/pepper" remote="github" revision="ics" />
   
   <!-- Sony Xperia U 'kumquat' -->
   <project name="CyanogenMod/android_device_sony_kumquat" path="device/sony/kumquat" remote="github" revision="ics" />
