@@ -85,7 +85,6 @@
   <project path="external/libvpx" name="CyanogenMod/android_external_libvpx" />
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" />
-  <!--<project path="external/nano" name="CyanogenMod/android_external_nano" />-->
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
@@ -113,7 +112,7 @@
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="feherneoh" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
