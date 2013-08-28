@@ -187,15 +187,15 @@
   <project name="device_sony_kumquat" path="device/sony/kumquat" remote="feherneoh" revision="ffos" />
   
   <!-- Sony Ericsson Xperia Active 'satsuma' -->
-  <project name="device_semc_satsuma" path="device/semc/satsuma" remote="feherneoh" revision="ffos">
+  <project name="device_semc_satsuma" path="device/semc/satsuma" remote="feherneoh" revision="ffos" />
   
   <!-- Sony Ericsson Xperia Mini 'smultron' -->
-  <project name="device_semc_smultron" path="device/semc/smultron" remote="feherneoh" revision="ffos">
+  <project name="device_semc_smultron" path="device/semc/smultron" remote="feherneoh" revision="ffos" />
   
   <!-- Sony Ericsson Xperia Mini Pro 'mango' -->
-  <project name="device_semc_mango" path="device/semc/mango" remote="feherneoh" revision="ffos">
+  <project name="device_semc_mango" path="device/semc/mango" remote="feherneoh" revision="ffos" />
   
   <!-- Sony Ericsson Live with Walkman 'coconut' -->
-  <project name="device_semc_coconut" path="device/semc/coconut" remote="feherneoh" revision="ffos">
+  <project name="device_semc_coconut" path="device/semc/coconut" remote="feherneoh" revision="ffos" />
   
 </manifest>
