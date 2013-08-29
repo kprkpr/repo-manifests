@@ -150,8 +150,9 @@
   <!-- CyanogenMOD to FireFox OS patch -->
   <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
   
-  <!-- Common files for Sony devices -->
+  <!-- Common files for Sony and Sony Ericsson devices -->
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="ics"/>
+  <project name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" remote="github" revision="ics" />
   
   <!-- Common files for devices:
