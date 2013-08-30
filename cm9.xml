@@ -179,7 +179,7 @@
   -->
   <project name="CyanogenMod/semc-kernel-msm7x30" path="kernel/semc/msm7x30" remote="github" revision="ics" />
   <project name="CyanogenMod/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="ics" />
-  <project name="CyanogenMod/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="ics" />
+  <project name="device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="feherneoh" revision="ffos" />
   <project name="CyanogenMod/android_hardware_ti_fmradio" path="hardware/ti/fmradio" remote="github" revision="ics" />
   
   <!-- Sony Xperia Go 'lotus' -->
