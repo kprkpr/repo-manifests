@@ -165,6 +165,13 @@
   <project name="CyanogenMod/sony-kernel-u8500" path="kernel/sony/u8500" remote="github" revision="ics" />
   
   <!-- Common files for devices:
+  Sony Xperia S
+  Sony Xperia Acro S
+  -->
+  <project name="CyanogenMod/sony-kernel-msm8660" path="kernel/sony/msm8660" remote="github" revision="android-msm-3.0" />
+  <project name="CyanogenMod/android_device_sony_fuji-common" path="device/sony/fuji-common" remote="github" revision="ics" />
+  
+  <!-- Common files for devices:
   Sony Ericsson Live with Walkman
   Sony Ericsson Xperia Active
   Sony Ericsson Xperia Mini
@@ -198,5 +205,11 @@
   
   <!-- Sony Ericsson Live with Walkman 'coconut' -->
   <project name="device_semc_coconut" path="device/semc/coconut" remote="feherneoh" revision="ffos" />
+  
+  <!-- Sony Xperia S 'nozomi' -->
+  <project name="device_sony_nozomi" path="device/sony/nozomi" remote="feherneoh" revision="ffos" />
+  
+  <!-- Sony Xperia Acro S 'hikari' -->
+  <project name="device_sony_hikari" path="device/sony/hikari" remote="feherneoh" revision="ffos" />
   
 </manifest>
