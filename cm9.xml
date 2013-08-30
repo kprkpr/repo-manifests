@@ -169,7 +169,7 @@
   Sony Xperia Acro S
   -->
   <project name="CyanogenMod/sony-kernel-msm8660" path="kernel/sony/msm8660" remote="github" revision="android-msm-3.0" />
-  <project name="CyanogenMod/android_device_sony_fuji-common" path="device/sony/fuji-common" remote="github" revision="ics" />
+  <project name="device_sony_fuji-common" path="device/sony/fuji-common" remote="feherneoh" revision="ffos" />
   
   <!-- Common files for devices:
   Sony Ericsson Live with Walkman
