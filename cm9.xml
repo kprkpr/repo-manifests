@@ -212,4 +212,7 @@
   <!-- Sony Xperia Acro S 'hikari' -->
   <project name="device_sony_hikari" path="device/sony/hikari" remote="feherneoh" revision="ffos" />
   
+  <!-- Sony Xperia Ion 'aoba' -->
+  <project name="device_sony_aoba" path="device/sony/aoba" remote="feherneoh" revision="ffos" />
+  
 </manifest>
