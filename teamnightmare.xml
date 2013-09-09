@@ -23,6 +23,9 @@
   
   <remote  name="mozillaorg"
            fetch="https://git.mozilla.org/releases" />
+           
+  <remote  name="feherneoh"
+           fetch="https://github.com/feherneoh" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -30,7 +33,7 @@
            sync-j="4" />
 
   <!-- B2G specific things. -->
-  <project name="platform_build" path="build" remote="b2g" revision="b2g-4.3_r2.1">
+  <project name="platform_build" path="build" remote="feherneoh" revision="b2g-4.3_r2.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master" />
