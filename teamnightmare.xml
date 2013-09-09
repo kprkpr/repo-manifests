@@ -105,6 +105,7 @@
   <project path="external/netcat" name="CyanogenMod/android_external_netcat" />
   <project path="external/netperf" name="CyanogenMod/android_external_netperf" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <project path="external/ping" name="CyanogenMod/android_external_ping" />
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
