@@ -64,6 +64,7 @@
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" />
