@@ -245,11 +245,11 @@
   <project path="vendor/htc" name="TeamNightmare/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
   <project path="vendor/lge" name="TeamNightmare/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
   
-  <!-- Toolchains --
+  <!-- Toolchains
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   
-  <!-- End TeamNightmare Additions -->
+  End TeamNightmare Additions -->
 
 
   <!-- Compiler patch (untested) -->
