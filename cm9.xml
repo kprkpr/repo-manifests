@@ -215,4 +215,10 @@
   <!-- Sony Xperia Ion 'aoba' -->
   <project name="device_sony_aoba" path="device/sony/aoba" remote="feherneoh" revision="ffos" />
   
+  <!-- HTC Leo test -->
+  <project path="kernel/htc/leo" name="TeamNightmare/android_kernel_htc_leo" remote="github" revision="cm-10.2" />
+  <project path="vendor/htc" name="TeamNightmare/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
+  <project path="device/htc/leo" name="TeamNightmare/android_device_htc_leo" remote="github" revision="cm-10.2" />
+  <project path="device/htc/qsd8k-common" name="TeamNightmare/android_device_htc_qsd8k-common" remote="github" revision="cm-10.2" />
+  
 </manifest>
