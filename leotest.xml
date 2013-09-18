@@ -138,12 +138,9 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="refs/heads/cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="refs/heads/cm-10.2" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
-  <project path="ndk" name="CyanogenMod/android_ndk" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r2.2" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
-  <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
