@@ -12,6 +12,18 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
   
+  <remote  name="b2g"
+           fetch="git://github.com/mozilla-b2g/" />
+           
+  <remote  name="mozilla"
+           fetch="git://github.com/mozilla/" />
+           
+  <remote  name="apitrace"
+           fetch="git://github.com/apitrace/" />
+  
+  <remote  name="mozillaorg"
+           fetch="https://git.mozilla.org/releases" />
+           
   <remote  name="feherneoh"
            fetch="https://github.com/feherneoh" />
 
