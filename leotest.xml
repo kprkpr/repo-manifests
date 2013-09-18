@@ -106,8 +106,6 @@
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" />
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
-  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
-  <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" revision="refs/heads/cm-10.2" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
@@ -146,7 +144,6 @@
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
-  <project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
