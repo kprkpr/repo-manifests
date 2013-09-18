@@ -11,6 +11,9 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  
+  <remote  name="feherneoh"
+           fetch="https://github.com/feherneoh" />
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
