@@ -23,7 +23,7 @@
   <remote  name="feherneoh" 
            fetch="git://github.com/feherneoh" />
 
-  <default revision="refs/heads/ics"
+  <default revision="cm-10.2"
            remote="github"
            sync-c="true"
            sync-j="4" />
@@ -154,74 +154,6 @@
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  
-  <!-- CyanogenMOD to FireFox OS patch -->
-  <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
-  
-  <!-- Common files for Sony and Sony Ericsson devices -->
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="ics"/>
-  <project name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" remote="github" revision="ics"/>
-  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" remote="github" revision="ics" />
-  
-  <!-- Common files for devices:
-  Sony Xperia Go
-  Sony Xperia P
-  Sony Xperia Sola
-  Sony Xperia U
-  -->
-  <project name="device_sony_montblanc-common" path="device/sony/montblanc-common" remote="feherneoh" revision="ffos" />
-  <project name="CyanogenMod/sony-kernel-u8500" path="kernel/sony/u8500" remote="github" revision="ics" />
-  
-  <!-- Common files for devices:
-  Sony Xperia S
-  Sony Xperia Acro S
-  -->
-  <project name="CyanogenMod/sony-kernel-msm8660" path="kernel/sony/msm8660" remote="github" revision="android-msm-3.0" />
-  <project name="device_sony_fuji-common" path="device/sony/fuji-common" remote="feherneoh" revision="ffos" />
-  
-  <!-- Common files for devices:
-  Sony Ericsson Live with Walkman
-  Sony Ericsson Xperia Active
-  Sony Ericsson Xperia Mini
-  Sony Ericsson Xperia Mini Pro
-  -->
-  <project name="CyanogenMod/semc-kernel-msm7x30" path="kernel/semc/msm7x30" remote="github" revision="ics" />
-  <project name="CyanogenMod/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="ics" />
-  <project name="device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="feherneoh" revision="ffos" />
-  <project name="CyanogenMod/android_hardware_ti_fmradio" path="hardware/ti/fmradio" remote="github" revision="ics" />
-  
-  <!-- Sony Xperia Go 'lotus' -->
-  <project name="device_sony_lotus" path="device/sony/lotus" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Xperia P 'nypon' -->
-  <project name="device_sony_nypon" path="device/sony/nypon" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Xperia Sola 'pepper' -->
-  <project name="device_sony_pepper" path="device/sony/pepper" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Xperia U 'kumquat' -->
-  <project name="device_sony_kumquat" path="device/sony/kumquat" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Ericsson Xperia Active 'satsuma' -->
-  <project name="device_semc_satsuma" path="device/semc/satsuma" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Ericsson Xperia Mini 'smultron' -->
-  <project name="device_semc_smultron" path="device/semc/smultron" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Ericsson Xperia Mini Pro 'mango' -->
-  <project name="device_semc_mango" path="device/semc/mango" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Ericsson Live with Walkman 'coconut' -->
-  <project name="device_semc_coconut" path="device/semc/coconut" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Xperia S 'nozomi' -->
-  <project name="device_sony_nozomi" path="device/sony/nozomi" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Xperia Acro S 'hikari' -->
-  <project name="device_sony_hikari" path="device/sony/hikari" remote="feherneoh" revision="ffos" />
-  
-  <!-- Sony Xperia Ion 'aoba' -->
-  <project name="device_sony_aoba" path="device/sony/aoba" remote="feherneoh" revision="ffos" />
   
   <!-- HTC Leo test -->
   <project path="kernel/htc/leo" name="TeamNightmare/android_kernel_htc_leo" remote="github" revision="cm-10.2" />
