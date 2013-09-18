@@ -115,19 +115,30 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="feherneoh" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
-  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" revision="refs/heads/cm-10.2" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" revision="refs/heads/cm-10.2" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
+  <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" revision="refs/heads/cm-10.2" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" revision="refs/heads/cm-10.2" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="refs/heads/cm-10.2" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" revision="refs/heads/cm-10.2" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" revision="refs/heads/cm-10.2" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" revision="refs/heads/cm-10.2" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" revision="refs/heads/cm-10.2" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="refs/heads/cm-10.2" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="refs/heads/cm-10.2" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" revision="refs/heads/cm-10.2" />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" revision="refs/heads/cm-10.2" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" revision="refs/heads/cm-10.2" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" revision="refs/heads/cm-10.2" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" revision="refs/heads/cm-10.2" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
