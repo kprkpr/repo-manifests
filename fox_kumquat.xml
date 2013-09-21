@@ -33,7 +33,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="7c348f42b661f73f7223cdb12cef14946c66ab22" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="b54465f91b7a83e0cf5eb9969b4bd602bd0bcf3a" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="4ecded7b2bfc72ffed0c392ea449fa38e447226f" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="2d380d27c86263537f6b829cd0238f5dd702c735" />
