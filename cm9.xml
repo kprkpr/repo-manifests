@@ -149,6 +149,7 @@
   
   <!-- CyanogenMOD to FireFox OS patch -->
   <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
+  <project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" />
   
   <!-- Common files for Sony and Sony Ericsson devices -->
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="ics"/>
