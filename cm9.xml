@@ -216,6 +216,6 @@
   <project name="device_sony_aoba" path="device/sony/aoba" remote="feherneoh" revision="ffos" />
   
   <!-- Sony Ericsson Xperia X10 'es209ra' -->
-  <project name="CyanogenMod/android_device_semc_es209ra" path="device/semc/es209ra" />
+  <project name="device_semc_es209ra" path="device/semc/es209ra" remote="feherneoh" revision="ffos" />
   
 </manifest>
