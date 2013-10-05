@@ -216,6 +216,7 @@
   <!-- Sony Xperia Ion 'aoba' -->
   <project name="device_sony_aoba" path="device/sony/aoba" remote="feherneoh" revision="ffos" />
   
+  <project name="CyanogenMod/android_device_semc_zeus-common" path="device/semc/zeus-common" remote="github" />
   <!-- Sony Ericsson Xperia X10 'es209ra' -->
   <project name="device_semc_es209ra" path="device/semc/es209ra" remote="feherneoh" revision="ffos" />
   
