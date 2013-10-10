@@ -232,4 +232,5 @@
   <project path="device/htc/leo" name="cmhtcleo/android_device_htc_leo" />
   <project path="vendor/htc/leo" name="cmhtcleo/android_vendor_htc_leo" />
   <project path="kernel/htc/leo" name="cmhtcleo/android_kernel_cmhtcleo" />
+  <project path="device/htc/common" name="cmhtcleo/android_device_htc_common" />
 </manifest>
