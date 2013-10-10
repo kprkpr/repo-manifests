@@ -228,4 +228,8 @@
   <project name="device_semc_zeus" path="device/semc/zeus" remote="feherneoh" revision="ffos" />
   <project name="device_semc_zeusc" path="device/semc/zeusc" remote="feherneoh" revision="ffos" />
   
+  <!-- HTC HD2 'Leo' -->
+  <project path="device/htc/leo" name="cmhtcleo/android_device_htc_leo" />
+  <project path="vendor/htc/leo" name="cmhtcleo/android_vendor_htc_leo" />
+  <project path="kernel/htc/leo" name="cmhtcleo/android_kernel_cmhtcleo" />
 </manifest>
