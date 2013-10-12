@@ -32,12 +32,12 @@
   <project path="build" name="platform_build" remote="feherneoh" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="b54465f91b7a83e0cf5eb9969b4bd602bd0bcf3a" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="4ecded7b2bfc72ffed0c392ea449fa38e447226f" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="2d380d27c86263537f6b829cd0238f5dd702c735" />
-  <project path="external/moztt" name="moztt" remote="b2g" revision="6ee1f8987ef36d688f97064c003ad57849dfadf2" />
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
+  <project path="gaia" name="gaia" remote="b2g" revision="master" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
+  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 
   <!-- CyanogenMod -->
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -147,23 +147,14 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   
-  <!-- CyanogenMOD to FireFox OS patch -->
+  <!-- SEMC Zeusc -->
   <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
-  
-  <!-- Common files for Sony and Sony Ericsson devices -->
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="ics"/>
+  <project name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" remote="github" revision="ics" />
-  
-  <!-- Common files for devices:
-  Sony Xperia Go
-  Sony Xperia P
-  Sony Xperia Sola
-  Sony Xperia U
-  -->
-  <project name="device_sony_montblanc-common" path="device/sony/montblanc-common" remote="feherneoh" revision="ffos" />
-  <project name="CyanogenMod/sony-kernel-u8500" path="kernel/sony/u8500" remote="github" revision="ics" />
-
-  <!-- Sony Xperia U 'kumquat' -->
-  <project name="device_sony_kumquat" path="device/sony/kumquat" remote="feherneoh" revision="ffos" />
+  <project name="CyanogenMod/semc-kernel-msm7x30" path="kernel/semc/msm7x30" remote="github" revision="ics" />
+  <project name="CyanogenMod/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="ics" />
+  <project name="device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="feherneoh" revision="ffos" />
+  <project name="CyanogenMod/android_hardware_ti_fmradio" path="hardware/ti/fmradio" remote="github" revision="ics" />
+  <project name="device_semc_zeusc" path="device/semc/zeusc" remote="feherneoh" revision="ffos" />
   
 </manifest>
