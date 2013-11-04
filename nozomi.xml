@@ -147,13 +147,12 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   
-  <!-- SEMC Zeus -->
+  <!-- Sony Nozomi -->
   <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
-  <project name="TheMuppets/proprietary_vendor_semc" path="vendor/semc" remote="github" revision="ics"/>
+  <project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/somc/dash" remote="github" revision="ics" />
-  <project name="CyanogenMod/semc-kernel-msm7x30" path="kernel/semc/msm7x30" remote="github" revision="ics" />
-  <project name="CyanogenMod/android_device_semc_zeus-common" path="device/semc/zeus-common" remote="github"  revision="ics" />
-  <project name="device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="feherneoh" revision="ffos" />
-  <project name="device_semc_zeus" path="device/semc/zeus" remote="feherneoh" revision="ffos" />
-  
+  <project name="CyanogenMod/sony-kernel-msm8660" path="kernel/sony/msm8660" remote="github" revision="android-msm-3.0" />
+  <project name="device_sony_fuji-common" path="device/sony/fuji-common" remote="feherneoh" revision="ffos" />
+  <project name="device_sony_nozomi" path="device/sony/nozomi" remote="feherneoh" revision="ffos" />
 </manifest>
