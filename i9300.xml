@@ -152,4 +152,5 @@
   <project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="feherneoh" revision="ffos" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="ics"/>
 </manifest>
