@@ -34,7 +34,7 @@
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
   <project path="gaia" name="gaia" remote="b2g" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
+  <project path="gecko" name="mozilla/gecko-dev" remote="github" revision="release" />
   <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
   <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
