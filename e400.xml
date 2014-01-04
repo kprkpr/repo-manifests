@@ -32,9 +32,9 @@
   <project path="build" name="platform_build" remote="feherneoh" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="gaia" path="gaia" remote="b2g" revision="fc6080c035c99c1483da693265eac8755e1d8255"/>
-  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="22ef961b401b95256123f9c032381241f31d8e59"/>
-  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="ff33001c31ad0ce540db070194408afed3b37a9a"/>
+<project name="gaia" path="gaia" remote="b2g" revision="8307f797d8209bc0d58468ccd8a2e42994dd36e0"/>
+  <project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/>
+  <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="21f7bb53b6eb1a069e6ded19ca6cd90c80dd89af"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="827214fcf38d6569aeb5c6d6f31cb296d1f09272"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="5951c3565b2733c2a8a61213bf4e354ecbb1aaae"/>
 
