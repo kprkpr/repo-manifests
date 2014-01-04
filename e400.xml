@@ -150,7 +150,7 @@
   <!-- LG L3 e400 -->
   <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
   <project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" />
-  <project name="cybojenix/android_vendor_lge_e400" path="vendor/lge" remote="github" revision="ics" />
+  <project name="cybojenix/android_vendor_lge_e400" path="vendor/lge" remote="github" revision="gingerbread" />
   <project name="device_lge_e400" path="device/lge/e400" remote="feherneoh" revision="ffos" />
   <project name="CyanogenMod/lge-kernel-e400" path="kernel/lge/e400" remote="github" revision="android-msm-2.6.38" />
 </manifest>
