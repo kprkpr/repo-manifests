@@ -33,7 +33,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce"/>
-  <project name="gaia" path="gaia" remote="b2g" revision="8307f797d8209bc0d58468ccd8a2e42994dd36e0"/>
+  <project path="gaia" name="kprkpr/gaia" revision="master" />
+  <!-- <project name="gaia" path="gaia" remote="b2g" revision="8307f797d8209bc0d58468ccd8a2e42994dd36e0"/> -->
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="21f7bb53b6eb1a069e6ded19ca6cd90c80dd89af"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="827214fcf38d6569aeb5c6d6f31cb296d1f09272"/>
@@ -115,7 +116,6 @@
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
-  <!-- <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" /> -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
