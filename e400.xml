@@ -37,7 +37,7 @@
   <!-- <project name="gaia" path="gaia" remote="b2g" revision="8307f797d8209bc0d58468ccd8a2e42994dd36e0"/> -->
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="21f7bb53b6eb1a069e6ded19ca6cd90c80dd89af"/>
-  <project name="rilproxy" path="rilproxy" remote="b2g" revision="827214fcf38d6569aeb5c6d6f31cb296d1f09272"/>
+  <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
   <project name="moztt" path="external/moztt" remote="b2g" revision="5951c3565b2733c2a8a61213bf4e354ecbb1aaae"/>
 
   <!-- CyanogenMod -->
@@ -124,7 +124,8 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/ril" name="kprkpr/android_hardware_ril" revision="master" />
+  <!-- <project path="hardware/ril" name="kprkpr/android_hardware_ril" revision="master" /> -->
+  <project path="hardware/ril" name="dzo/hardware_ril" revision="master" />
   <!-- <project path="hardware/ril" name="invisiblek/android_hardware_qcom_ril" revision="cm-10.1" /> -->
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
