@@ -34,7 +34,6 @@
   </project>
   <project name="fake-dalvik" path="dalvik" remote="b2g" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce"/>
   <project path="gaia" name="kprkpr/gaia" revision="master" />
-  <!-- <project name="gaia" path="gaia" remote="b2g" revision="8307f797d8209bc0d58468ccd8a2e42994dd36e0"/> -->
   <project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/>
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="21f7bb53b6eb1a069e6ded19ca6cd90c80dd89af"/>
   <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
@@ -111,7 +110,7 @@
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
   <!-- <project path="external/wpa_supplicant_6" name="joka90/android-wpasupplicant" revision="master" /> Bugs compiling!-->
   <!-- <project path="external/wpa_supplicant_8" name="kprkpr/android_external_wpa_supplicant_8" /> -->
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master"
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="frameworks/base" name="kprkpr/android_frameworks_base" remote="github" />
