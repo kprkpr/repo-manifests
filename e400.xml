@@ -19,6 +19,8 @@
 
   <remote name="mozillaorg"
            fetch="https://git.mozilla.org/releases" />
+           
+  <remote name="caf" fetch="git://codeaurora.org/" />
 
   <remote name="feherneoh"
            fetch="git://github.com/feherneoh" />
@@ -45,8 +47,6 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="feherneoh" />
@@ -90,9 +90,6 @@
   <project path="external/ping6" name="CyanogenMod/android_external_ping6" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
-  <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="master" />
   <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" />
@@ -108,9 +105,7 @@
   <project path="external/webrtc" name="CyanogenMod/android_external_webrtc" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" />
-  <!-- <project path="external/wpa_supplicant_6" name="joka90/android-wpasupplicant" revision="master" /> Bugs compiling!-->
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" />
-  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="aosp" revision="master" /> -->
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="frameworks/base" name="kprkpr/android_frameworks_base" remote="github" />
@@ -121,18 +116,13 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <!-- <project path="hardware/ril" name="kprkpr/android_hardware_ril" revision="master" /> -->
-  <project path="hardware/ril" name="dzo/hardware_ril" revision="master" />
-  <!-- <project path="hardware/ril" name="invisiblek/android_hardware_qcom_ril" revision="cm-10.1" /> -->
+  <project path="hardware/ril" name="platform/hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -150,9 +140,12 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   
   <!-- LG L3 e400 -->
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" />
+    <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="sourcefix" name="cmtogecko" remote="feherneoh" />
   <project path="vendor/neoh" name="vendor_neoh" remote="feherneoh" revision="ffos" />
-  <project name="kprkpr/proprietary_vendor_lge" path="vendor/lge" revision="ics" />
-  <project name="kprkpr/device_lge_e400" path="device/lge/e400" revision="ffos" />
-  <project name="CyanogenMod/lge-kernel-e400" path="kernel/lge/e400" remote="github" revision="android-msm-2.6.38" />
+  <project path="vendor/lge" name="kprkpr/proprietary_vendor_lge" revision="ics" />
+  <project path="device/lge/e400" name="kprkpr/device_lge_e400" revision="ffos" />
+  <project path="kernel/lge/e400" name="CyanogenMod/lge-kernel-e400" remote="github" revision="android-msm-2.6.38" />
 </manifest>
