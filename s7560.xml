@@ -129,7 +129,7 @@ sync-j="4" />
 <project path="system/vold" name="CyanogenMod/android_system_vold" />
 <!-- s7560 -->
 <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-10.1" />
-<project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
+<project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="cm-9.1.0" />
 <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
  <project path="device/samsung/kylessopen" name="kprkpr/android_device_samsung_s7560" remote="gitt" revision="master" />
 <project path="kernel/samsung/kylessopen" name="kprkpr/android_kernel_samsung_s7560" remote="gitt" revision="master" />
