@@ -25,7 +25,7 @@ sync-j="4" />
 <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
-<project path="gaia" name="kprkpr/gaia" revision="master" revision="master"/>
+<project path="gaia" name="kprkpr/gaia" revision="master"/>
 <project name="gecko.git" path="gecko" remote="mozillaorg" revision="master"/>
 <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master"/>
 <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
