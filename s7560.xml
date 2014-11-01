@@ -26,10 +26,10 @@ sync-j="4" />
 </project>
 <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master"/>
 <project path="gaia" name="kprkpr/gaia" revision="master" />
-<project name="gecko.git" path="gecko" remote="mozillaorg" revision="4a1fbf06b02060acfa849328330b77023ac9f953"/>
-<project name="gonk-misc" path="gonk-misc" remote="b2g" revision="21f7bb53b6eb1a069e6ded19ca6cd90c80dd89af"/>
+<project name="gecko.git" path="gecko" remote="mozillaorg" />
+<project name="gonk-misc" path="gonk-misc" remote="b2g" />
 <project name="rilproxy" path="rilproxy" remote="b2g" revision="master"/>
-<project name="moztt" path="external/moztt" remote="b2g" revision="5951c3565b2733c2a8a61213bf4e354ecbb1aaae"/>
+<project name="moztt" path="external/moztt" remote="b2g" />
 <!-- CyanogenMod -->
 <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
 <project path="bionic" name="CyanogenMod/android_bionic" />
