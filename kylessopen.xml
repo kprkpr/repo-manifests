@@ -11,7 +11,7 @@ fetch="git://github.com/mozilla-b2g/" />
 <remote name="mozilla"
 fetch="git://github.com/mozilla/" />
 <remote name="gitt"
-fetch="https://github.com/" />
+fetch="git://github.com/" />
 <remote name="mozillaorg"
 fetch="https://git.mozilla.org/releases" />
 <remote name="apitrace" fetch="git://github.com/apitrace/" />
@@ -104,7 +104,7 @@ sync-j="4" />
 
 <!-- s7560 -->
 <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="cm-9.1.0" />
-<project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+<project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="gitt" revision="cm-9.1.0" />
  <project path="device/samsung/kylessopen" name="kprkpr/android_device_samsung_s7560" remote="gitt" revision="master" />
 <project path="kernel/samsung/kylessopen" name="kprkpr/android_kernel_samsung_s7560" remote="gitt" revision="master" />
 <project path="vendor/samsung/kylessopen" name="jonypx09/android_vendor_samsung_kylessopen" remote="gitt" revision="master" />
