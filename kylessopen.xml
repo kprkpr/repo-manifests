@@ -105,7 +105,7 @@ sync-j="4" />
 <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
 <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
 <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-<project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+<project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" revision="cm-10.2" />
 <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
 <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
 <project path="hardware/ril" name="platform/hardware/ril" remote="caf" revision="fe9a3f63922143b57e79ed570bab2328df8c83a5" />
